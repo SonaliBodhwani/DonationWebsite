@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style/payment.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Payment Details</h2>
+    <hr>
+    <form>
+        Full Name:&nbsp;&nbsp;<input type="text" name="name" id="name" placeholder="Enter your Name" required><br><br>
+        Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" id="email" placeholder="Enter your Email-id" required><br><br>
+        Contact No: <input type="number" name="phone" id="no" placeholder="Enter your Contact No." required><br><br>        
+        Amount: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="amount" id="amt" placeholder="Enter Amount" required><br><br>
+        Payment Type:
+        <select name="payment_type" id="payment_type" required>
+            <option value="">--Select a Payment Type--</option>
+            <option value="upi">UPI</option>
+            <option value="netbanking">Netbanking</option>
+            <option value="card">Card</option>
+        </select><br><br>
+        <input type="submit" value="Pay Now">
+    </form>
+    </div>
+</body>
+</html>

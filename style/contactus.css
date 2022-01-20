@@ -1,0 +1,45 @@
+*{
+    background-image: url("D:/TSF-INTERN/images/img21.jpg");
+    background-attachment: fixed;
+    background-repeat: No-repeat;
+    background-size:cover;
+    font-family: Arial;
+    color: white;
+    margin:0;
+    padding:10px;
+    
+}
+
+body{
+    margin: 6px 15px;
+    padding:8px;
+}
+
+.container{
+    background-color: #f2f2f2;
+    padding:5px 20px 65px 5px;
+    border: 1px solid lightgray ;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    
+    padding:12px;
+    border:1px solid;
+    
+}
+
+input[type="submit"]{
+    background-color: lightslategray;
+    color:white;
+    padding:10px 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
+
+
